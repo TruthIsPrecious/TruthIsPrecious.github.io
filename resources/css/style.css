@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+body {
+  position: relative;
+  margin: 15px 40px;
+}
+
+h1 {
+  background-color: #030B99;
+  border-radius: 7px;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+
+
+img {
+  border: 2px solid 030B99;
+}
+
+footer {
+  background-color: #030B99;
+  color: white;
+  margin: 5px;
+  position: relative;
+  border-radius: 7px;
+  height: 110px;
+  width: calc(100% - 80px);
+  font-size: 13px;
+  display: inline-block;
+}
+
+footer p {
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+footer nav li {
+  padding: 0;
+  text-align: left;
+  display: inline-block;
+  padding: 0 30px;
+}
+
+footer nav li:hover {
+  color: #999103;
+  cursor: pointer;
+}
+
+footer ul a {
+  color: white;
+}
+
+/* h2 headers */
+#about-me h2, #skills h2, #projects h2, #experience h2, #contact h2 {
+  border: 4px inset #999103;
+  width: fit-content;
+}
+
+
+#home h2 {
+  text-shadow: 1px 2px 1px #999103;
+  text-align: center;
+  margin: 0 20px;
+}
+
+#home p {
+  margin: 20px;
+  text-align: center;
+}
+
+#about-me {
+  width: 75%;
+  display: inline-block;
+}
+
+#projects {
+  width: 75%;
+}
+
+#experience {
+  width: 75%;
+}
+
+.header-content h2 {
+  border: 2px inset #999103;
+  width: 180px;
+}
+
+#home nav {
+  position: relative;
+  background-color: #030B99;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+#home nav li {
+  display: inline-block;
+  font-weight: bold;
+  padding: 5px 250px;
+  color: white;
+  z-index: 100;
+}
+
+#home nav li:hover {
+  border: 1px transparent black;
+  padding: 5px 250px;
+  color: #999103;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
