@@ -1,9 +1,278 @@
+<!-- [Home]
+|— About Me
+|— Skills
+|— Projects
+|— Experience
+|— Blog
+|— Testimonials
+|— Contact
+Footer -->
+
+
+<!DOCTYPE html>
 <html>
+  <header>
+    <title>Personal Website - Miguel | Portfolio</title>
+    <link href="./resources/css/style.css" rel="stylesheet" type="text/css">
+  </header>
+  <body>
+    <h1>Miguel Constantino-Guzman</h1>
+    <!-- home -->
+    <div id="home">
+      <h2>Computer Science Graduate | Coding Instructor | Robotics Mentor</h2>
+      <p>
+        Hello! I am a computer science graduate from the University of the Pacific (hereinafter, "UOP"). 
+        As of June 2025, I am a coding instructor at Whizara and Robotics Mentor at Mech Finix Labs!
+      </p>
 
-<body>
-  <h1>Miguel C. Guzman</h1>
-  <p>Welcome to my first deployable website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
+      <nav>
+        <!-- linkedIn Profile -->
+        <li><a href="https://www.linkedin.com/in/constaguzman" target="_blank">LinkedIn Profile</a></li>
+        <!-- email -->
+        <li><a href="mailto: c.guzmanmiguel1948@gmail.com" target="_blank">c.guzmanmiguel1948@gmail.com</a></li>
+        <li><a href="https://www.github.com/TruthIsPrecious" target="_blank">GitHub Profile</a></li>
+      </nav>
 
+    </div>
+    
+    <!-- about me -->
+    <div id="about-me">
+      <h2>About Me</h2>
+      <!-- A brief personal narrative: what drives you, your background, and your professional thoughts -->
+       <p>
+        -- As a passionate technology enthusiast, I have always been fascinated by the power of coding to solve real-world problems.
+        My journey in computer science began in San Joaquin Delta College, where I began honing my tech and communication skills to build programs in Python, C++, Java, and Linux.<br>
+        -- I am currently pursuing a Full-Stack Engineer certification on Codecademy to further enhance my skills and knowledge in web development.
+        I am also a coding instructor at Whizara, where I teach students the fundamentals of coding and help them develop their programming skills.
+        Additionally, I am a robotics mentor at Mech Finix Labs, where I guide students in building and programming robots using the BBC Microchip.
+       </p>
+      <!-- Key highlights: years of experience, major areas of expertise -->
+      <h3>Key Highlights</h3>
+      <ul>
+        <li>2 months of experience in teaching robotics</li>
+        <li>Proficient in basic Python programming</li>
+        <li>Continued education in Full-Stack engineering on Codecademy</li>
+        <li>Passion for teaching Lego Spike Prime, Python programming, and learning new concepts in the field of Computer Science</li>
+      </ul>
+
+      <!-- A professional photo or illustration -->
+      <h3>Professional photo</h3>
+      <img src="./resources/images/self-portrait.jpeg" alt="Self portrait of Miguel Constantino-Guzman" width="320" height="200">
+    </div>
+
+    <!-- skills -->
+    <div id="skills">
+      <h2>Skills</h2>
+      <!-- Languages & Frameworks: e.g., JavaScript, Python, React, Node.js -->
+      <h3>Programming Languages</h3>
+      <ul>
+        <li>Python</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>HTML/CSS</li>
+        <li>Lego Spike Prime</li>
+        <li>Scratch/Scratch Jr.</li>
+      </ul>
+
+      <!-- Tools & Platforms: Git, Docker, AWS, Linux -->
+      <h3>Tools and Platforms</h3>
+      <ul>
+        <li>Git/GitHub</li>
+        <li>Linux</li>
+        <li>Visual Studio Code</li>
+        <li>Matplotlib</li>
+        <li>Pandas</li> 
+        <li>Chrome DevTools</li>
+      </ul>
+
+      <!-- Soft Skills: Communication, Agile methodology, Problem-solving -->
+      <h3>Soft Skills</h3>
+      <ul>
+        <li>Typing (75 wpm)</li>
+        <li>Agile methodology</li>
+        <li>Scrum methodology</li>
+        <li>Attentive Listening</li>
+        <li>Collaboration (Google Docs, PowerPoint, Word)</li>
+        <li>Group Communication (WhatsApp, Signal, iMessage)</li>
+      </ul>
+      <!-- Optional: Certifications, Awards, or Notable Achievements -->
+      <h3>Certifications</h3>
+      <ul>
+        <li>Full-Stack Engineer Certification (in progress) - Codecademy</li>
+        <li>Python Programming Basics - SoloLearn</li>
+    </div>
+
+    <!-- projects -->
+    <div id="projects">
+      <h2>Projects</h2>
+      <!-- 3 to 6 projects -->
+      
+      <!-- Each project should include:
+      Title, short description (what it does and your role)
+
+      Tech stack used
+
+      Links to code (GitHub) and demo (live or video)
+
+      Optional visuals: screenshots, GIFs, or media embeds
+      -->
+      <div class="inline">
+      <h3>Project 1: AI Fitness Application</h3>
+      <p>
+        Developed an AI-powered fitness application using Swift and Xcode on an iMac, collaborating with two teammates.
+        Learned Swift fundamentals, including optionals, closures, and protocols, while troubleshooting and debugging code.
+        Collaborated using Git for version control and participated in regular code reviews and task management.
+        Designed and implemented intuitive UI interfaces using Figma.
+      </p>
+      </div>
+
+      <div class="inline">
+      <h3>Project 2: Classifying a Query Point using K-Nearest Neighbor</h3>
+      <p>
+        Organized Python functions to create a program that finds query points and their attributes
+        Implemented basic OOP techniques such as reusability and abstraction to form classes
+        Learned the concept of K-nearest neighbor to determine if a car could fit a certain condition
+        Applied statistics to find the percentage of query points that made the input car applicable to the conditions
+      </p>
+      </div>
+
+      <div class="inline">
+      <h3>Project 3: TCP Socket Programming (Client and Server sides)</h3>
+      <p>
+        Used decomposition to build a client and server script in Python to avoid unnecessary complexity
+        Deployed client and server apps to communicate with peers using telnet, netcat, and PuTTY
+        Implemented four different username and passwords for user testing
+        Followed a state diagram to implement the authentication process
+        Created a server on a personal computer to receive user requests and determine whether to allow a user to enter it
+      </p>
+      </div>
+
+      <div class="inline">
+      <h3>Project 4: Genetic Algorithm</h3>
+      <p>
+        Used training file data for the S&P 500 to build a system that contains a population of chromosomes
+        Created a Fitness Function to compute the fitness of a chromosome, having 30 years worth of data
+        Implemented Uniform and 1-Point Crossover algorithms to create the next generation of chromosomes
+      </p>
+      </div>
+
+      <div class="inline">
+      <h3>Project 5: Producing solution output for MiniSAT website</h3>
+      <p>
+        Designed an algorithm for outputting the solution to a MiniSAT website using Python
+      </p>
+      </div>
+        
+    </div>
+
+    <!-- experience -->
+    <div id="experience">
+      <h2>Experience</h2>
+      <!-- For each job or internship:
+
+      Role, company, dates
+
+      Key accomplishments (use bullets, quantify when possible, e.g., “Improved load time by 30%”)
+
+      Link to downloadable resume or PDF -->
+
+      <!-- Optionally group under Education, Certifications, or Awards -->
+
+      <h3>Robotics Mentor at Mech Finix Labs</h3>
+      <p>
+        June 2025 - Present
+      </p>
+      <ul>
+        <li>Guided students in building and programming robots for competitions.</li>
+        <li>Facilitated workshops on robotics concepts and hands-on projects.</li>
+        <li>Collaborated with team members to improve robot designs and functionalities.</li>
+      </ul>
+      <h3> Meeedley Global Summer Challenge Internship Program</h3>
+      <p>
+        May 2025 - July 2025
+      </p>
+      <ul>
+        <li>Collaborated with other specialist in design, marketing, and programming to market our group name</li>
+        <li>Met twice per week to brainstorm solutions on a University student anonymous application written in HTML, JavaScript, and CSS</li>
+        <li>[Key accomplishment or responsibility]</li>
+      </ul>
+      <h3>Coding Instructor at Whizara</h3>
+      <p>
+        April 2025 - Present
+      </p>
+      <ul>
+        <li>Developed and delivered engaging coding lessons to students.</li>
+        <li>Mentored students in various programming languages and problem-solving techniques.</li>
+        <li>Created interactive projects to enhance learning experiences.</li>
+      </ul>
+      <h3>Computer Science Specialist at Mercor</h3>
+      <p>
+        January 2025 - March 2025
+      </p>
+      <ul>
+        <li>Collaborated with other math and CS specialist on real-world projects to train models based on real user input</li>
+        <li>Analyzed and referred to specific documentation and criteria on how to give feedback to AI models from OpenAI</li>
+        <li>Dedicated more than four hours to giving correct feedback to AI models based on image text recognition and solutions</li>
+        <li>Used knowledge in programming, coding, calculus, and algebra to determine if a model gave a correct solution/interpretation of an image-based problem from a real user</li>
+      </ul>
+    </div>
+
+    <!-- Blog / Insights (Optional) -->
+    <div id="blog">
+      <!-- A few recent posts on technical topics or industry reflections -->
+
+      <!-- Helps with visibility and demonstrates thought leadership -->
+    </div>
+
+    <!-- Testimonials / Social Proof (Optional) -->
+    <div id="testimonials">
+      <!-- Quotes from supervisors, coworkers, professors (with permission) -->
+
+      <!-- Case studies or highlight impactful project successes -->
+    </div>
+
+    <!-- contact -->
+    <div id="contact">
+      <h2>Contact</h2>
+      <!-- Social links: LinkedIn, GitHub, Twitter, etc. -->
+      <ul>
+        <li>Email: c.guzmanmiguel1948@gmail.com</li>
+        <li><a href="https://www.linkedin.com/in/constaguzman" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/TruthIsPrecious" target="_blank">GitHub</a></li>
+      </ul>
+
+
+      <!-- Optionally, add location and time zone -->
+      <p>
+        Location: <strong>Stockton, CA</strong>
+        <br>
+        Time Zone: <strong>Pacfic Time (PT)</strong>
+      </p>
+      
+
+    <!-- footer -->
+    <footer>
+      <!-- Quick links to main sections or resume download -->
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <!-- <li><a href="#blog">Blog</a></li> -->
+          <!-- <li><a href="#testimonials">Testimonials</a></li> -->
+          <li><a href="#contact">Contact</a></li>
+          
+          <!-- Copyright notice and web credits -->
+        </ul>
+      </nav>
+      
+      <p>
+        &copy; 2025 Miguel Constantino-Guzman. All rights reserved.<br>
+        Website designed by Miguel Constantino-Guzman
+      </p>
+    </footer>
+
+  </body>
 </html>
